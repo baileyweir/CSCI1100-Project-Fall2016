@@ -302,8 +302,8 @@ public class Subtraction{
    public static String continueCheck3(String message){
    Scanner kb = new Scanner(System.in);
    System.out.print(message);
-   System.out.println("\n0 - Replay Addition Stage 3"
-                     +"\n1 - Continue to Subtraction Stage 1"
+   System.out.println("\n0 - Replay Subtraction Stage 3"
+                     +"\n1 - Continue to Multiplication Stage 1"
                      +"\n2 - Main Menu"); 
    String[] menu_options = {"replay","0","continue","1","main menu","2"};
    String user_input = CSCI1100_PROJECT.runInputLoop(menu_options);
