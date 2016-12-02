@@ -343,7 +343,7 @@ public class Addition{
                                  +"\nWhat would you like to do?");
       System.out.println("\n0 - Retry"
                         +"\n1 - Main Menu");
-      String[] menu_options = {"retry", "0", "main menu", "2"};
+      String[] menu_options = {"retry", "0", "main menu", "1"};
       String user_input = CSCI1100_PROJECT.runInputLoop(menu_options);
       return user_input;
    }//END continueCheckFail   
